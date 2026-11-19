@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Python Virtual Environments
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build artifacts
+frontend/dist/
+dist/
+out/
+.next/
+.vercel/
+
+# Storage & Databases
+backend/storage/*.db
+backend/storage/uploads/
+backend/storage/repos/
+storage/
+
+# Environment secrets
+.env
+.env.local
+*.log
